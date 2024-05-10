@@ -21,7 +21,7 @@ jobs:
       #
       # To add more build types (Release, Debug, RelWithDebInfo, etc.) customize the build_type list.
       matrix:
-        os: [ubuntu-latest, debian-latest]
+        os: [ubuntu-latest, linux]
         build_type: [Release]
     steps:
     - uses: actions/checkout@v4
